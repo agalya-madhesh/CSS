@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.main-header{
+    background-color: black;
+    width: 100%;
+    position:fixed;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.main-header > div{
+    display: inline-block;
+}
+
+.brand-name{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: pink;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align:right;
+    font-size: 20px;
+    vertical-align:middle;
+    width: calc(100% - 250px);
+    padding: 0 0 6px 0;
+    
+}
+
+.main-nav-item{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav-item a{
+    text-decoration: none;
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+.main-nav-item a:hover{
+    color: violet;
+    font-weight: bold;
+    border-bottom : 2px white solid;
+}
+
+.nav--cta a{
+    color: white;
+    background-color: plum;
+    border-radius: 2px;
+    padding: 8px 16px;
+}
+
+.nav--cta a:hover{
+    color: violet;
+    background-color: white;
+}
+
+.footer{
+    background-color: black;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.footer-link{
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.link{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+}
+
+.link a:hover,
+.link a:active{
+    color:purple
+}
+
+.button{
+    background-color: darkmagenta;
+    color: white;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius:8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active{
+    background-color: white;
+    color: darkmagenta;
+}
