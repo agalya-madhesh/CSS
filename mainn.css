@@ -1,76 +1,107 @@
 *{
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
 
 .one{
     background-color: pink;
-    background-image: url(images.png);
-    background-size: cover;
+    background-image: url(purple.jpeg);
+    background-size:contain;
     font-family: courier;
-    padding: 20px;
-    height: 550px;
-    border: 10px purple solid;
-    margin: 40px 50px;
-}
-
-#two{
-    color: blueviolet;
-}
-
-.main-header{
-    background-color: black;
-    width: 100%;
+    color: rgba(75, 22, 75, 0.849);
     padding: 15px;
-    vertical-align: middle;
+    height: 500px;
+    margin: 0;
 }
 
-.main-header > div{
-    display: inline-block;
-}
-
-.brand-name{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 30px;
-    color: pink;
-}
-
-.main-nav{
-    display: inline-block;
-    text-align:right;
-    font-size: 20px;
-    vertical-align:middle;
-    width: calc(100% - 250px);
-    padding: 0 0 6px 0;
-    
-}
-
-.main-nav-item{
-    display: inline-block;
-    margin: 0 15px;
-}
-
-.main-nav-item a{
-    text-decoration: none;
+#two, #three{
     color: darkmagenta;
-    cursor: pointer;
+    text-align: center;
+    font-family: courier;
+    font-weight: bolder;
 }
 
-.main-nav-item a:hover{
-    color: violet;
-    font-weight: bold;
-    border-bottom : 2px white solid;
+.three{
+    background-color: violet;
+    text-align: center;
+    margin: 6%;
+    padding: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 21%;
 }
 
-.nav--cta a{
+.four{
+    background-color:plum;
+    box-shadow: 2px 2px 2px 2px purple;
+    font-size: medium;
+}
+
+.five{
+    background-color: pink;
+    padding: 3px;
+    box-shadow: 2px 2px 2px 2px purple;
+    border-radius: 8px;
+    color:blue
+}
+
+.six{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.six li{
+    margin: 10px 10px;
+}
+
+.title{
+    color: blue;
+}
+
+.price{
+    color:whitesmoke;
+}
+
+
+
+#section{
+    background-color: darkorchid;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#section #three{
     color: white;
-    background-color: plum;
-    border-radius: 2px;
-    padding: 8px 16px;
 }
 
-.nav--cta a:hover{
-    color: violet;
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.element{
+    display: inline-block;
+    width: 30%;
+}
+
+.image{
     background-color: white;
+    width: 120px;
+    height: 120px;
+    border: 19px solid pink;
+    border-radius: 70%;
+    margin:auto;
+}
+
+.description{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
 }
 
