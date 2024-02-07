@@ -1,18 +1,19 @@
 main{
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .background{
-    background:url("../images/plans-background.jpg");
-    width: 100%;
-    height: 100%;
+    background-image:url("../images/plans-background.jpg");
+    filter:grayscale(40%);
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: -1;
 }
 
 .tutorial{
     width: 70%;
-    margin:18px 0;
+    margin: 1rem 0;
     border: 4px solid rgb(172, 106, 172);
     border-left: none;
     position: relative;
@@ -26,7 +27,7 @@ main{
 
 .tutorial a{
     text-decoration: none;
-    padding: 32px;
+    padding: 2rem;
     color: blueviolet;
     display: block;
 }
@@ -35,11 +36,11 @@ main{
     position: absolute;
     top: 0;
     right: 0;
-    margin: 20px;
-    font-size: 20px;
+    margin: 1.2rem;
+    font-size: 0.8rem;
     color:white;
     background-color: blueviolet;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .t-subtitle{
@@ -47,10 +48,10 @@ main{
 }
 
 .t-info{
-    padding:15px;
+    padding: 1rem;
     border: 2px solid plum;
     color:blueviolet;
-    font-size: 20px;
+    font-size: 1.2rem;
     background-color: whitesmoke;
 }
 
