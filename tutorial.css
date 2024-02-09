@@ -1,5 +1,5 @@
 main{
-    padding-top: 2rem;
+    padding-top: 160px;
 }
 
 .background{
@@ -9,6 +9,7 @@ main{
     height: 100vh;
     position: fixed;
     z-index: -1;
+    padding-top: 80px;
 }
 
 .tutorial{
@@ -73,4 +74,31 @@ main{
 
 #t-js{
     background-color: pink;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media (min-width: 40rem){
+    main {
+      margin: 3rem auto;
+      max-width: 1500px;
+      padding-top: 60px; 
+    }
+}
+
+@media (min-width: 1500px){
+    .tutorial {
+      border-left: 4px solid rgb(172, 106, 172);;
+}}
+
+@media (max-width: 664px) {
+    .main-nav {
+        display: none;
+    }
 }
