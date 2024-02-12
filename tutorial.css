@@ -52,12 +52,14 @@ main{
     padding: 1rem;
     border: 2px solid plum;
     color:blueviolet;
-    font-size: 1.2rem;
     background-color: whitesmoke;
+    font-weight: 200;
+    text-shadow: 2px 2px 2px palevioletred;
+    font : small-caps 1.2rem "protest riot", sans-serif;
 }
 
 .clearfix{
-    clear:both
+    clear:both;
 }
 
 #t-css{
