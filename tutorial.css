@@ -42,10 +42,11 @@ main{
     color:white;
     background-color: blueviolet;
     padding: 0.5rem;
+    transform: rotateZ('45');
 }
 
 .t-subtitle{
-    color:rgb(172, 28, 172)
+    color:rgb(15, 2, 15)
 }
 
 .t-info{
